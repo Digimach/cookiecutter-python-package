@@ -31,7 +31,7 @@ repos:
           - id: codespell
 
     - repo: https://github.com/adrienverge/yamllint.git
-      rev: v1.25.0
+      rev: v1.26.1
       hooks:
           - id: yamllint
             args: [--format, parsable, --strict]
@@ -48,7 +48,7 @@ repos:
             exclude: /?docs/
 
     - repo: https://github.com/Lucas-C/pre-commit-hooks
-      rev: v1.1.9
+      rev: v1.1.10
       hooks:
           - id: forbid-tabs
             exclude: (Makefile|make\.bat)
